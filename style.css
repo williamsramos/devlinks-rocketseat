@@ -90,7 +90,8 @@ body *{
     width: 64px;
     height: 24px;
     background: var(--surface-color);
-    border: 1px solid var(--stroke-color); 
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
@@ -144,12 +145,11 @@ ul li a:hover{
     background: var(--highlight-color);
 }
 
-footer{
+footer {
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
-    color: var(--text-color);
-}
+  }
 
 @media (min-width: 700px) {
   :root {
